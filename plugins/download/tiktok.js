@@ -1,7 +1,7 @@
 const { ttdl } = require('btch-downloader')
 exports.run = {
-   usage: ['tt','tiktok','tikmp3'],
-   hidden:  ['tt','tiktok','tikmp3'],
+   usage: ['tiktok'],
+   hidden:  ['tiktok'],
    use: 'link',
    category: 'downloader',
    async: async (m, {
