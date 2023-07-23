@@ -110,10 +110,10 @@ module.exports = (m) => {
       if (!('onlyprefix' in setting)) setting.onlyprefix = '+'
       if (!('owners' in setting)) setting.owners = ['994408364923']
       if (!isNumber(setting.lastReset)) setting.lastReset = new Date * 1
-      if (!('msg' in setting)) setting.msg = 'Hi +tag 🪸\nI am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : +db\n◦ *Library* : Baileys v+version\n◦ *Rest API* : https://api.neoxr.my.id\n◦ *Source* : https://github.com/neoxr/neoxr-bot\n\nIf you find an error or want to upgrade premium plan contact the owner.'
+      if (!('msg' in setting)) setting.msg = '_Hi_ +tag 💐\n_I am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp._\n\n◦ *Database* : +db\n◦ *Library* : Baileys v+version\n◦ *Rest API* : https://github.com/winterasepa\n◦ *Instagram* : https://www.instagram.com/lakshan.o_o\n\n_If you find an error or want to upgrade premium plan contact the owner._'
       if (!isNumber(setting.menuStyle)) setting.menuStyle = 4
-      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/21aff6a6837f46ea45083.jpg'
-      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/Dqb7Z2G5mqnIPSc6xbVWuH'
+      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/f88b7db92a75ff1d2bb8d.jpg'
+      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
    } else {
       global.db.setting = {
          autodownload: true,
@@ -134,10 +134,10 @@ module.exports = (m) => {
          onlyprefix: '+',
          owners: ['994408364923'],
          lastReset: new Date * 1,
-         msg: 'Hi +tag 🪸\nI am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : +db\n◦ *Library* : Baileys v+version\n◦ *Rest API* : https://api.neoxr.my.id\n◦ *Source* : https://github.com/neoxr/neoxr-bot\n\nIf you find an error or want to upgrade premium plan contact the owner.',
+         msg: '_Hi_ +tag 💐\n_I am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp._\n\n◦ *Database* : +db\n◦ *Library* : Baileys v+version\n◦ *Rest API* : https://github.com/winterasepa\n◦ *Instagram* : https://www.instagram.com/lakshan.o_o\n\n_If you find an error or want to upgrade premium plan contact the owner._',
          menuStyle: 4,
-         cover: 'https://telegra.ph/file/21aff6a6837f46ea45083.jpg',
-         link: 'https://chat.whatsapp.com/Dqb7Z2G5mqnIPSc6xbVWuH'
+         cover: 'https://telegra.ph/file/f88b7db92a75ff1d2bb8d.jpg',
+         link: 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
       }
    }
 }
