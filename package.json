@@ -27,6 +27,8 @@
       "mel-api": "github.com/lakshanxyz/mel-api",
       "cfonts": "~2.10.0",
       "btch-downloader": "2.0.8",
+      "frieren-scraper": "github:xct007/frieren-scraper",
+      "usetube": "2.2.7",
       "express": "~4.16.4",
       "json-stable-stringify": "^1.0.2",
       "network-speed": "^2.1.1",
