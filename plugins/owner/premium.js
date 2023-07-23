@@ -1,4 +1,4 @@
-exports.run = {
+xports.run = {
    usage: ['+prem', '-prem'],
    use: 'mention or reply',
    category: 'owner',
