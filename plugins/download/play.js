@@ -1,4 +1,4 @@
-const { youtube } = require('btch-downloader');
+const { search } = require('./../../scrape/play');
 exports.run = {
    usage: ['play'],
    hidden: ['lagu', 'song', 'music'],
