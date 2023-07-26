@@ -57,7 +57,7 @@ module.exports = class NeoxrApi {
    }
 
    twitter = async (url) => {
-      let json = await Func.fetchJson(this.baseUrl + '/twitter?url=' + url + '&apikey=' + this.apiKey)
+      let json = await Func.fetchJson('https://aemt.me/download/twtdl?url=' + url)
       return json
    }
 
@@ -225,7 +225,7 @@ module.exports = class NeoxrApi {
    }
    
    spotify = async (url) => {
-      let json = await Func.fetchJson(this.baseUrl + '/spotify?url=' + url + '&apikey=' + this.apiKey)
+      let json = await Func.fetchJson('https://api.nomisec07.site/api/spotify?url=' + url)
       return json
    }
    
