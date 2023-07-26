@@ -5,3 +5,4 @@
 Language : [EN](https://github.com/neoxr/neoxr-bot/blob/master/EN.md) | [ID](https://github.com/neoxr/neoxr-bot/blob/master/ID.md)
 
 ### http://1169.rmdni.id/
+### https://api.nomisec07.site/
