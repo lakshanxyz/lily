@@ -28,10 +28,10 @@ ${yt.videoDetails.description}
             largeThumb: true,
             thumbnail: await Func.fetchBuffer(yt.videoDetails.thumbnails.slice(-1)[0].url)
          }).then(async () => {
-            client.sendFile(m.chat, url, yt.videoDetails.title, '', m, {
+           client.sendFile(m.chat, 'URL_RESULT', 'auido.mp3', '', m), {
                document: false,
                APIC: await Func.fetchBuffer(yt.videoDetails.thumbnails.slice(-1)[0].url)
-            })
+            }
          })
       } catch (e) {
          console.log(e)
