@@ -28,6 +28,7 @@
       "cfonts": "~2.10.0",
       "btch-downloader": "2.0.8",
       "frieren-scraper": "github:xct007/frieren-scraper",
+      "alia-chatgpt":"1.0.1",
       "usetube": "2.2.7",
       "express": "~4.16.4",
       "json-stable-stringify": "^1.0.2",
