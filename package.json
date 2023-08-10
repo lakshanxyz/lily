@@ -26,7 +26,7 @@
       "@neoxr/neoxr-js": "^1.5.8",
       "mel-api": "github.com/lakshanxyz/mel-api",
       "cfonts": "~2.10.0",
-      "btch-downloader": "2.0.8",
+      "btch-downloader": "2.1.0",
       "frieren-scraper": "github:xct007/frieren-scraper",
       "alia-chatgpt":"1.0.1",
       "usetube": "2.2.7",
