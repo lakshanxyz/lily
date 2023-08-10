@@ -1,7 +1,7 @@
 const { igdl } = require('btch-downloader')
 exports.run = {
     usage: ['ig'],
-    hidden: ['igdl'],
+    hidden: ['igdl','instagram'],
     use: 'link',
     category: 'downloader',
     async: async (m, {
@@ -16,11 +16,13 @@ exports.run = {
           client.sendReact(m.chat, '🕒', m.key)
           let old = new Date()
           let json = await igdl(Func.ttFixed(args[0]))
-          if (!json.url.length) return client.reply(m.chat, Func.jsonFormat(json), m)
-         json.url.map(async v => {
-            client.sendFile(m.chat, v, '', `🍟 Fetching : ${((new Date - old) * 1)} ms`, m)
+          //if (!json.url.length) return client.reply(m.chat, Func.jsonFormat(json), m)
+         //json.url.map(async v => {
+         for (let i of json) {
+            client.sendFile(m.chat, i.url, '', `🍟 Fetching : ${((new Date - old) * 1)} ms`, m)
             await Func.delay(1500)
-         })
+         //})
+         }
        } catch (e) {
           console.log(e)
           return client.reply(m.chat, global.status.error, m)
